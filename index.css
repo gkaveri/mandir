@@ -1,0 +1,190 @@
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:white;
+    box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.5);
+}
+.navbar-left{
+    display: flex;
+}
+.nav-image{
+    height:80px;
+    width:80px;
+    border-radius: 60%;
+    margin-right: 10px;
+}
+.title{
+    font-family: "Roboto";
+    font-size: 25px;
+    align-self: flex-start;
+}
+.nav-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.nav-item1{
+    font-size: 25px;
+    color:orangered;
+    font-family:"Roboto";
+    font-weight:bold;
+}
+.nav-item{
+    font-size: 25px;
+    color:black;
+    font-family:"Roboto";
+    font-weight:500;
+    margin-left:15px;
+}
+.web-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    margin-top: 5px;
+    height:80vh;
+}
+.web-para{
+    font-family:'Roboto';
+    font-size:45px;
+    font-weight:bold;
+    align-self: center;
+    margin-left:5px;
+}
+.web-span{
+    font-family:'Roboto';
+    font-size:45px;
+    font-weight:bold;
+    color: orange;
+}
+.web-center-image{
+    height:450px;
+    width:550px;
+    align-self: center;
+    margin-right:20px;
+}
+.explore-title{
+    font-family: "Roboto";
+    font-size:40px;
+    font-weight:bold;
+    text-align: center;
+}
+.explore-section{
+    display: flex;
+    flex-direction: row;
+    margin-top:-10px;
+}
+.explore-item{
+    display:flex;
+    flex-direction: column;
+}
+.explore-items-image{
+    height:100px;
+    width:100px;
+    border-radius: 60%;
+    margin:30px;
+}
+.explore-items-para{
+    font-family:'Roboto';
+    font-size:20px;
+    font-weight:bold;
+    color: grey;
+    margin-left:30px;
+    margin-top:-10px;
+}
+.recognised-section{
+    height:40vh;
+    background-color:aliceblue;
+}
+.reco-para{
+    font-family: "Roboto";
+    font-size: 38px;
+    text-align: center;
+    font-weight:bold;
+    padding-top:25px;
+}
+.reco-image{
+    height: 120px;
+    width:180px;
+    border-radius: 10px;
+}
+.recognised-para2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:10px;
+    padding-bottom: 25px;;
+}
+.bottom-title{
+    text-align: center;
+    font-family:'Roboto';
+    font-size: 40px;
+}
+.bottom-para{
+    text-align: center;
+    font-family:'Roboto';
+    font-size: 20px;
+    color:grey;
+    padding-bottom: 40px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 510px;
+    width: 350px;
+    border:1px solid grey;
+    border-radius: 10px;
+}
+.card-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 180px;
+    padding-bottom: 30px;
+}
+.card-image{
+    height: 180px;
+    width: 340px;
+    margin: 5px;
+}
+.card-title{
+    color: rgb(231, 10, 106);
+    text-align: center;
+    font-size: 15px;
+}
+.card-heading{
+   font-family:'Roboto';
+   font-size: 25px;
+   margin: 5px;
+}
+.card-heading2{
+    font-family:'Roboto';
+   font-size: 18px;
+   margin: 5px;
+   color: grey;
+}
+.card-button{
+    
+    height: 50px;
+}
+.card-para{
+    font-family:'Roboto';
+   font-size: 18px;
+   margin: 5px;
+   color: rgb(31, 30, 30);
+}
+.card-button {
+    background-color: rgb(54, 197, 138); /* Background color (blue) */
+    color: white;              /* Text color (white) */
+    padding: 10px 20px;        /* Padding to increase button size */
+    border: none;              /* Remove default border */
+    border-radius: 5px;        /* Rounded corners */
+    font-size: 16px;           /* Font size */
+    cursor: pointer;           /* Pointer cursor on hover */
+    display: inline-block;     /* Inline block for better control */
+    text-align: center;        /* Center the text */
+    vertical-align: middle;    /* Vertically align the text */
+}
+
+.card-button:hover {
+    background-color: #b0bac5; /* Darker blue on hover */
+}
